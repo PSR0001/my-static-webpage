@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Estonia&family=Rasa&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* container one for background image */
+.container1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/dropOne.png");
+  background-size: cover;
+}
+/* container two have 2div inside  */
+.container2 {
+  display: flex;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+/* first  */
+.first {
+  width: 5%;
+}
+.second {
+  width: 95%;
+  color: white;
+  display: flex;
+}
+.third {
+  width: 10%;
+  background: linear-gradient(#00052eaf, #ffffff3d);
+}
+
+.imagePlay {
+  width: 400px;
+  height: 256px;
+  background: url(../images/friends3.png);
+  background-size: cover;
+  margin: auto;
+  border-radius: 4px;
+}
+.imagePlay:hover{
+  opacity: 0.7;
+}
+
+.size {
+  height: 87vh;
+}
+
+/* middle division */
+
+#heading {
+  font-size: 590%;
+  font-family: "Rasa";
+  margin: 14% 4px 6% 0;
+}
+.leftDiv {
+  width: 50%;
+}
+
+/* right div */
+.rightDiv {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.rightUp {
+  height: 30%;
+  text-align: right;
+}
+.rightDown {
+  text-align: center;
+  height: 300px;
+}
+
+/* styling the button */
+.btn {
+  background: none;
+  border: 2px solid white;
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+  font-family: "Rasa", serif;
+  margin: 6% 5% 5px 0;
+}
+.btn:hover {
+  background: rgba(224, 224, 224, 0.575);
+}
+
+/* setting hr width */
+.container2 hr {
+  width: 87%;
+  margin: auto;
+}
+
+.end {
+  display: flex;
+  color: white;
+  width: 87%;
+  /* margin: auto; */
+ justify-content: center;
+ align-items: center;
+}
+.lastList {
+  padding: 4px;
+}
+
+.horizantalLine {
+  border-left: 2px solid white;
+  height: 75px;
+  padding: 6px;
+}
+
+/* styling middle three element */
+.middleThree {
+  width: 18%;
+  font-size: 11x;
+}
+
+/* making ahambuger  */
+.up {
+  height: 12%;
+  margin: auto;
+}
+
+.smallLine {
+  width: 28px;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.middle p {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin-top: 70%;
+  font-size: 150%;
+}
+.middleLine {
+  border-top: 4px solid white;
+  width: 70%;
+}
+
+.upperIcons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 38%;
+}
+
+.icons {
+  width: 40px;
+  height: 40px;
+  padding: 7px;
+}
+
+.share ime {
+  bottom: 0;
+}
+.share {
+  margin-bottom: 0px;
+}
+
+.background {
+  height: 12%;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 700px) {
+  .imagePlay {
+    width: 290px;
+    height: 196px;
+  }
+  #heading {
+    font-size: 400%;
+  }
+  .addjustHeight {
+    height: 88vh;
+  }
+  .lastList h1 {
+    font-size: 22px;
+  }
+  .lastList p {
+    font-size: 10px;
+  }
+  .horizantalLine {
+    height: 57px;
+  }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 500px) {
+  .imagePlay {
+    width: 230px;
+    height: 128px;
+  }
+  #heading {
+    font-size: 300%;
+  }
+  .lastList h1 {
+    font-size: 22px;
+  }
+  .leftDiv p {
+    font-size: 12px;
+  }
+  .lastList p {
+    font-size: 9px;
+  }
+  .horizantalLine {
+    height: 57px;
+  }
+  .resIcon {
+    width: 30px;
+    height: 30px;
+  }
+  .resBurgerIcon {
+    width: 35px;
+    height: 33px;
+    /* margin: auto; */
+  }
+  .middle p {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 500px) and (min-width: 350px) {
+  .imagePlay {
+    width: 155px;
+    height: 93px;
+  }
+  #heading {
+    font-size: 300%;
+  }
+  .lastList h1 {
+    font-size: 22px;
+  }
+  .leftDiv p {
+    font-size: 12px;
+  }
+  .lastList p {
+    font-size: 10px;
+  }
+  .resIcon {
+    width: 20px;
+    height: 20px;
+  }
+  .resBurgerIcon {
+    width: 33px;
+    height: 30px;
+    /* margin: auto; */
+  }
+  #heading {
+    font-size: 270%;
+  }
+  .lastList h1 {
+    font-size: 15px;
+  }
+  .leftDiv p {
+    font-size: 10px;
+  }
+  .lastList p {
+    font-size: 7px;
+  }
+  .horizantalLine {
+    height: 57px;
+  }
+  .middle p {
+    font-size: 16px;
+  }
+
+  .btn {
+    height: 29px;
+    width: 77px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 350px) and (min-width: 250px) {
+  .imagePlay {
+    width: 105px;
+    height: 75px;
+  }
+  #heading {
+    font-size: 300%;
+  }
+  .lastList h1 {
+    font-size: 22px;
+  }
+  .leftDiv p {
+    font-size: 12px;
+  }
+  .lastList p {
+    font-size: 10px;
+  }
+  .resIcon {
+    width: 20px;
+    height: 20px;
+  }
+  .resBurgerIcon {
+    width: 33px;
+    height: 30px;
+    /* margin: auto; */
+  }
+  #heading {
+    font-size: 270%;
+  }
+  .lastList h1 {
+    font-size: 15px;
+  }
+  .leftDiv p {
+    font-size: 10px;
+  }
+  .lastList p {
+    font-size: 5px;
+  }
+  .horizantalLine {
+    height: 57px;
+  }
+  .middle p {
+    font-size: 16px;
+  }
+
+  .btn {
+    height: 29px;
+    width: 77px;
+    font-size: 13px;
+  }
+  .lastList h2{
+      font-size: 16px;
+  }
+}
+
+
+
+
+/* Adding animation in navbar */
+
+.third {
+
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  animation: change 60s ease-in-out infinite;
+  /* animation-delay: 5s; */
+  position: sticky;
+}
+
+@keyframes change {
+  0% {
+      background-position: 0 100%;
+  }
+
+  50% {
+      background-position: 100% 10%;
+  }
+
+  100% {
+      background-position: 0 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
